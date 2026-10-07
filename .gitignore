@@ -1,0 +1,42 @@
+# Local credentials and environment configuration
+.kaggle/
+.env
+.env.*
+!.env.example
+kaggle.json
+secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local environments and caches
+.venv/
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Reproducible experiment output and model artifacts
+/outputs/
+/external/
+/data/
+*.log
+*.pth
+*.pt
+*.ckpt
+*.joblib
+*.npz
+*.npy
+*.gz
+*.zip
+
+# Keep only the scored Motion EMA archive under kaggle/
+/kaggle/*
+!/kaggle/biohub_motion_ema_alpha04_reproduction/
+/kaggle/biohub_motion_ema_alpha04_reproduction/*
+!/kaggle/biohub_motion_ema_alpha04_reproduction/biohub-motion-ema-alpha04-reproduction.ipynb
+!/kaggle/biohub_motion_ema_alpha04_reproduction/kernel-metadata.json
+!/kaggle/biohub_motion_ema_alpha04_reproduction/recipe_identity.json
