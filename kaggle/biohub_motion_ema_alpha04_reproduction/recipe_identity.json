@@ -1,0 +1,8 @@
+{
+  "strategy": "Motion EMA alpha 0.4",
+  "best_public_score": 0.942,
+  "original_scored_notebook_sha256": "ef9a6330ad46d3dd2f975cceca5ca417bff79bcb33c574fe51ea20fddbdfc4cd",
+  "local_sanitized_notebook_sha256": "621f67e3ad6ea78147e1e758b59ecadf557d3adb031e113a2312cc6663dd5b3f",
+  "expected_submission_csv_sha256": "fd1162bfc09b6d06413701aa898eb14bc5df9cc5bfd999fe598bf81fbf125515",
+  "sanitization": "Removed account attribution from one Markdown cell; all executable code cells are unchanged."
+}
